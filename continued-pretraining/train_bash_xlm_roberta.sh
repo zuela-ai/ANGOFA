@@ -1,0 +1,20 @@
+WANDB_DISABLED=true CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --rdzv_endpoint=0.0.0.0:29300 --nproc_per_node=4 run_extra.py \
+  --model_name_or_path xlm-roberta-base \
+  --train_file ./output.txt \
+  --tokenizer_name cis-lmu/glot500-base \
+  --output_dir ./LM_Angola_768 \
+  --cache_dir cache \
+  --per_device_train_batch_size 2 \
+  --gradient_accumulation_steps 8 \
+  --fp16 True \
+  --do_train \
+  --num_train_epochs 50 \
+  --save_steps 10000 \
+  --ddp_timeout 259200 \
+  --use_initialization True \
+  --random_initialization False \
+  --num_primitive 768 \
+  --embedding_path /mnt/disk/oquinjica/embedding-initialization/stored_factorizationxlm_all_768 \
+  --only_eng_vocab False \
+  --preprocessing_num_workers 8 \
+  --ignore_data_skip False
