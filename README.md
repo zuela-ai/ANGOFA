@@ -1,4 +1,4 @@
-# angOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model
+## angOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model
 
 We provide code implementations for both ANGOFA and ANGXLM-R models, along with resources for embedding initialization and continued pretraining. Additionally, Hugging Face models for both ANGOFA and ANGXLM-R are available on the model hub for easy access and experimentation.
 
