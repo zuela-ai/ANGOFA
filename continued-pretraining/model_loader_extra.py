@@ -1,3 +1,16 @@
+"""
+Author: cisnlp 
+Source: https://github.com/cisnlp/ofa 
+
+Description:
+This script facilitates the loading and customization of pre-trained language models,
+focusing on Roberta and XLM-Roberta models. It includes functions for generating embedding paths,
+loading assembled models, and printing model parameter statistics.
+
+Note: In this project we only used xlm-roberta-base
+"""
+
+
 from transformers import AutoModelForMaskedLM, RobertaConfig
 from modeling_xlmr_extra import *
 from modeling_roberta_extra import *
