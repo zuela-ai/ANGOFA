@@ -1,6 +1,4 @@
-# ANGOFA LEVERAGING OFA EMBEDDING FACTORIZATION FOR ANGOLAN LANGUAGES
-
-This repository contains code and resources for the paper titled "ANGOFA: Leveraging OFA Embedding Factorization for Angolan Languages". In this paper, we introduce the first set of multilingual Pretrained Language Models (PLMs) tailored for five Angolan languages using the Multi-Architecture Fine-Tuning (MAFT) approach. We compare PLMs developed through MAFT with and without informed embedding initialization, denoted as ANGOFA and ANGXLM-R, respectively.
+# AngOFA: LEVERAGING OFA EMBEDDING INITIALIZATION AND SYNTHETIC DATA FOR ANGOLAN LANGUAGE MODEL
 
 We provide code implementations for both ANGOFA and ANGXLM-R models, along with resources for embedding initialization and continued pretraining. Additionally, Hugging Face models for both ANGOFA and ANGXLM-R are available on the model hub for easy access and experimentation.
 
@@ -14,8 +12,10 @@ We provide code implementations for both ANGOFA and ANGXLM-R models, along with 
 ## Hugging Face Models
 Both ANGOFA and ANGXLM-R models are available on Hugging Face's model hub for easy access and experimentation.
 
-- **[AngOFA Model](https://huggingface.co/username/AngOFA)**: Description of the AngOFA model and instructions on how to use it.
-- **[ANGXLM-R Model](https://huggingface.co/username/ANGXLM-R)**: Description of the ANGXLM-R model and instructions on how to use it.
+- **[AngXLMR](https://huggingface.co/username/AngOFA)**: Description of the AngOFA model and instructions on how to use it.
+- **[AngOFA](https://huggingface.co/username/ANGXLM-R)**: Description of the ANGXLM-R model and instructions on how to use it.
+- **[AngXLMR-SYN](https://huggigngface.co/username/AngXLMR-SYN)**: 
+- **[AngOFA-SYN](https://huggingface.co/username/AngOFA-SYN)**:
 
 ## Usage
 - Clone this repository to your local machine.
