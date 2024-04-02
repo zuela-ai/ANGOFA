@@ -1,3 +1,15 @@
+"""
+Author: cisnlp
+Source: https://github.com/cisnlp/ofa
+
+Description:
+This script facilitates token standardization and initializes target language model embeddings 
+using source language model embeddings, accommodating token overlap and additional tokens.
+
+"""
+
+
+
 import numpy as np
 from gensim.models import KeyedVectors
 # from tqdm.auto import tqdm

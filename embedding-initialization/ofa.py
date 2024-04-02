@@ -1,3 +1,16 @@
+"""
+Author: cisnlp
+Source: https://github.com/cisnlp/ofa
+
+Description:
+This script initializes multilingual language models using the OFA embedding initialization  method,
+leveraging pre-trained embeddings to construct target language subword embeddings from source and 
+external language embeddings.
+
+"""
+
+
+
 from utils import *
 import os
 import argparse
