@@ -19,3 +19,13 @@ Both ANGOFA and ANGXLM-R models are available on Hugging Face's model hub for ea
 This work was supported in part by Oracle Cloud credits and related resources provided by Oracle
 ## Citation
 If you find this work helpful, please consider citing our paper:
+```bibtex
+@misc{quinjica2024angofa,
+      title={ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model},
+      author={Osvaldo Luamba Quinjica and David Ifeoluwa Adelani},
+      year={2024},
+      eprint={2404.02534},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
