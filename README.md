@@ -1,4 +1,4 @@
-## [ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model](https:arxiv.com)
+## [ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model](http://arxiv.org/abs/2404.02534)
 
 🚀 Welcome to the repository for ANGOFA, a project aimed at developing tailored pre-trained language models specifically fine-tuned for Angolan languages using a combination of OFA embedding initialization and synthetic data.
 
